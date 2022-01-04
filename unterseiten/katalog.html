@@ -44,7 +44,7 @@
     </header>
     <br>
     <br>
-    <!--1. REIHE / 3 ELEMENTE-->
+    <!--1. SEITE: 1. REIHE / 3 ELEMENTE-->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -63,7 +63,7 @@
     </div>
     <br>
     <br>
-    <!--2. REIHE / 3 ELEMENTE-->
+    <!--1. SEITE: 2. REIHE / 3 ELEMENTE-->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -80,6 +80,22 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <!--Pagination-->
+    <nav aria-label="Page navigation example">
+        <ul id="pagination" class="pagination">
+            <li class="page-item">
+                <a class="page-link" onclick="showPrevious()" href="#">zurück</a>
+            </li>
+            <li class="page-item"><p class="page-link" id="showIndex"></p><a class="page-link" href="#">1</a></li>
+            <li class="page-item">
+                <a class="page-link" onclick="showNext()" href="#">weiter</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
     <br>
     <br>
     <!--FOOTER-->

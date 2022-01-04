@@ -35,6 +35,42 @@ let produkt6 = {
     "farbe": "Vanille",
     "preis": "CHF 20.-",
 }
+let produkt7 = {
+    "produktnummer": 107,
+    "produktname": "4er Donut-Box (gemischt)",
+    "donutSorten": "Schokolade, Erbeere, Vanille, Caramel",
+    "preis": "CHF 12.-",
+}
+let produkt8 = {
+    "produktnummer": 108,
+    "produktname": "6er Donut-Box (gemischt)",
+    "donutSorten": "Schokolade, Erbeere, Vanille, Caramel, Marshmallow, Monster",
+    "preis": "CHF 16.-",
+}
+let produkt9 = {
+    "produktnummer": 109,
+    "produktname": "8er Donut-Box (gemischt)",
+    "donutSorten": "Schokolade, Erbeere, Vanille, Caramel, Marshmallow, Monster",
+    "preis": "CHF 20.-",
+}
+let produkt10 = {
+    "produktnummer": 110,
+    "produktname": "Donut Washi Tape Set",
+    "anzahl": "4",
+    "preis": "CHF 10.-",
+}
+let produkt11 = {
+    "produktnummer": 111,
+    "produktname": "Donut Sticker Set",
+    "": "Schokolade, Erbeere, Vanille, Caramel, Marshmallow, Monster",
+    "preis": "CHF 8.-",
+}
+let produkt12 = {
+    "produktnummer": 112,
+    "produktname": "Donut Keychain (Erbeere)",
+    "groesse": "5cm x 5cm",
+    "preis": "CHF 15.-",
+}
 
 //PRODUKT 1 AUF PAGE
 let htmlObj = document.getElementById("produkt1");
@@ -78,3 +114,45 @@ htmlObj.innerHTML =
     `Farbe: ${produkt6.farbe} <br>`+
     `Preis: ${produkt6.preis} <br>`+
     `Produktnummer: ${produkt6.produktnummer} <br>`;
+//PRODUKT 7 AUF PAGE
+htmlObj = document.getElementById("produkt7");
+htmlObj.innerHTML =
+    `Produktname: ${produkt7.produktname} <br>`+
+    `Farbe: ${produkt7.farbe} <br>`+
+    `Preis: ${produkt7.preis} <br>`+
+    `Produktnummer: ${produkt7.produktnummer} <br>`;
+//PRODUKT 8 AUF PAGE
+htmlObj = document.getElementById("produkt8");
+htmlObj.innerHTML =
+    `Produktname: ${produkt8.produktname} <br>`+
+    `Farbe: ${produkt8.farbe} <br>`+
+    `Preis: ${produkt8.preis} <br>`+
+    `Produktnummer: ${produkt8.produktnummer} <br>`;
+//PRODUKT 9 AUF PAGE
+htmlObj = document.getElementById("produkt9");
+htmlObj.innerHTML =
+    `Produktname: ${produkt9.produktname} <br>`+
+    `Farbe: ${produkt9.farbe} <br>`+
+    `Preis: ${produkt9.preis} <br>`+
+    `Produktnummer: ${produkt9.produktnummer} <br>`;
+//PRODUKT 10 AUF PAGE
+htmlObj = document.getElementById("produkt10");
+htmlObj.innerHTML =
+    `Produktname: ${produkt10.produktname} <br>`+
+    `Farbe: ${produkt10.farbe} <br>`+
+    `Preis: ${produkt10.preis} <br>`+
+    `Produktnummer: ${produkt10.produktnummer} <br>`;
+//PRODUKT 11 AUF PAGE
+htmlObj = document.getElementById("produkt11");
+htmlObj.innerHTML =
+    `Produktname: ${produkt11.produktname} <br>`+
+    `Farbe: ${produkt11.farbe} <br>`+
+    `Preis: ${produkt11.preis} <br>`+
+    `Produktnummer: ${produkt11.produktnummer} <br>`;
+//PRODUKT 12 AUF PAGE
+htmlObj = document.getElementById("produkt12");
+htmlObj.innerHTML =
+    `Produktname: ${produkt12.produktname} <br>`+
+    `Farbe: ${produkt12.farbe} <br>`+
+    `Preis: ${produkt12.preis} <br>`+
+    `Produktnummer: ${produkt12.produktnummer} <br>`;
