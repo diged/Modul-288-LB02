@@ -101,17 +101,17 @@ let produkt12 =
 //PRODUKT 2 AUF PAGE
     htmlObj = document.getElementById("produkt2");
     htmlObj.innerHTML =
-        `Produktname: ${produkt2.produktname} <br>`+
-        `Farbe: ${produkt2.farbe} <br>`+
-        `Preis: ${produkt2.preis} <br>`+
-        `Produktnummer: ${produkt2.produktnummer} <br>`;
+        `<b>Produktname:</b> ${produkt2.produktname} <br>`+
+        `<b>Farbe:</b> ${produkt2.farbe} <br>`+
+        `<b>Preis:</b> ${produkt2.preis} <br>`+
+        `<b>Produktnummer:</b> ${produkt2.produktnummer} <br>`;
 //PRODUKT 3 AUF PAGE
     htmlObj = document.getElementById("produkt3");
     htmlObj.innerHTML =
-        `Produktname: ${produkt3.produktname} <br>`+
-        `Farbe: ${produkt3.farbe} <br>`+
-        `Preis: ${produkt3.preis} <br>`+
-        `Produktnummer: ${produkt3.produktnummer} <br>`;
+        `<b>Produktname:</b> ${produkt3.produktname} <br>`+
+        `<b>Farbe:</b> ${produkt3.farbe} <br>`+
+        `<b>Preis:</b> ${produkt3.preis} <br>`+
+        `<b>Produktnummer:</b> ${produkt3.produktnummer} <br>`;
 //PRODUKT 4 AUF PAGE
     htmlObj = document.getElementById("produkt4");
     htmlObj.innerHTML =
