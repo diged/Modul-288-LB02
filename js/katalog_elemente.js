@@ -94,10 +94,10 @@ let produkt12 =
 //PRODUKT 1 AUF PAGE
     let htmlObj = document.getElementById("produkt1");
     htmlObj.innerHTML =
-        `Produktname: ${produkt1.produktname} <br>`+
-        `Farbe: ${produkt1.farbe} <br>`+
-        `Preis: ${produkt1.preis} <br>`+
-        `Produktnummer: ${produkt1.produktnummer} <br>`;
+        `<b>Produktname:</b> ${produkt1.produktname} <br>`+
+        `<b>Farbe:</b> ${produkt1.farbe} <br>`+
+        `<b>Preis:</b> ${produkt1.preis} <br>`+
+        `<b>Produktnummer:</b> ${produkt1.produktnummer} <br>`;
 //PRODUKT 2 AUF PAGE
     htmlObj = document.getElementById("produkt2");
     htmlObj.innerHTML =

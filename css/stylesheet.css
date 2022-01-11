@@ -3,6 +3,7 @@ body {
     background: #f8d7da;
     color: #000000;
     font-family: montserrat, sans-serif;
+    font-size: 10pt;
 }
 /*DARK MODE
 .dark-mode {
@@ -110,6 +111,7 @@ h1 {
 
 .review-text {
     align-self: center;
+    text-align: justify;
 }
 
 /*KATALOG*/
@@ -123,6 +125,20 @@ h1 {
 
 .display-3 {
     color: #ffffff;
+}
+
+.polaroid {
+    border: white;
+    background-color: white;
+    margin: 30px;
+}
+.polaroid_bild{
+    width: 50%;
+    object-fit: cover;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding: 20px;
 }
 
 /*FOOTER*/
