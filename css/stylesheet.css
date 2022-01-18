@@ -5,11 +5,11 @@ body {
     font-family: montserrat, sans-serif;
     font-size: 10pt;
 }
-/*DARK MODE
+/*DARK MODE*/
 .dark-mode {
-    background-color: black;
-    color: white;
-}*/
+    background-color: #8B5F65;
+    /*color: white;*/
+}
 
 /*NAVIGATION*/
 .navbar {
@@ -133,12 +133,13 @@ h1 {
     margin: 30px;
 }
 .polaroid_bild{
-    width: 50%;
+    /*width: 50%;*/
     object-fit: cover;
     height: 300px;
     display: block;
     margin: auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*FOOTER*/
