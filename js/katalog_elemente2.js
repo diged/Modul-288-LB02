@@ -84,22 +84,8 @@ let produktListe =
         }
     ];
 //PRODUKTE AUF DER KATALOGSEITE
-//ERSTE VERSION:
-   /* for(let index=0;index < produktListe.length;index++){
-        console.log(`${index}`);
-        console.log(`${produktListe[index].pid}`);
-        let htmlObj = document.getElementById(produktListe[index].pid);
-        htmlObj.innerHTML =
-            `<b>Produktname:</b> ${produktListe[index].produktname} <br>`+
-            `<b>Farbe:</b> ${produktListe[index].farbe} <br>`+
-            `<b>Preis:</b> ${produktListe[index].preis} <br>`+
-            `<b>Produktnummer:</b> ${produktListe[index].produktnummer} <br>`;
-        htmlObj = document.getElementById(produktListe[index].bildid);
-        htmlObj.src = produktListe[index].path;
-    }*/
 //ZWEITE VERSION:
    produktListe.forEach(item => {
-        console.log(`${item.pid}`);
         let htmlObj = document.getElementById(item.pid);
         htmlObj.innerHTML =
             `<b>Produktname:</b> ${item.produktname} <br>`+
@@ -109,6 +95,17 @@ let produktListe =
         htmlObj = document.getElementById(item.bildid);
         htmlObj.src = item.path;
     })
+//ERSTE VERSION:
+/* for(let index=0;index < produktListe.length;index++){
+     let htmlObj = document.getElementById(produktListe[index].pid);
+     htmlObj.innerHTML =
+         `<b>Produktname:</b> ${produktListe[index].produktname} <br>`+
+         `<b>Farbe:</b> ${produktListe[index].farbe} <br>`+
+         `<b>Preis:</b> ${produktListe[index].preis} <br>`+
+         `<b>Produktnummer:</b> ${produktListe[index].produktnummer} <br>`;
+     htmlObj = document.getElementById(produktListe[index].bildid);
+     htmlObj.src = produktListe[index].path;
+ }*/
 
 
 
